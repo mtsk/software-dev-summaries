@@ -3,7 +3,7 @@ David Thomas, Andrew Hunt: The Pragmatic Programmer, 20th Anniversary Edition
 > *Be adaptable, be responsible, and favor simple, well-communicated solutions that can change.*  
 > *The Pragmatic Programmer is about making small, responsible, adaptable decisions every day that compound into high-quality software.*
 
-## Mindset & Responsibility
+### Mindset & Responsibility
 
 **Take ownership of your code, your mistakes, and your career**
 → A production bug is traced to your code; you investigate, fix it, write a test, and document the cause instead of blaming requirements or ops.
@@ -19,7 +19,7 @@ David Thomas, Andrew Hunt: The Pragmatic Programmer, 20th Anniversary Edition
 
 ---
 
-## Change & Design
+### Change & Design
 
 **Design for change**
 → You isolate payment logic behind an interface, making it easy to add a new provider later.
@@ -35,7 +35,7 @@ David Thomas, Andrew Hunt: The Pragmatic Programmer, 20th Anniversary Edition
 
 ---
 
-## Code Quality
+### Code Quality
 
 **Don’t Repeat Yourself (DRY)**
 → You extract duplicated validation logic into a shared function used by API and background jobs.
@@ -51,7 +51,7 @@ David Thomas, Andrew Hunt: The Pragmatic Programmer, 20th Anniversary Edition
 
 ---
 
-## Testing & Feedback
+### Testing & Feedback
 
 **Test early, test often**
 → You add unit tests as soon as a feature is implemented, not just before release.
@@ -67,7 +67,7 @@ David Thomas, Andrew Hunt: The Pragmatic Programmer, 20th Anniversary Edition
 
 ---
 
-## Tools & Automation
+### Tools & Automation
 
 **Automate repetitive tasks**
 → CI runs tests, linting, and deployments automatically instead of relying on a checklist.
@@ -83,7 +83,7 @@ David Thomas, Andrew Hunt: The Pragmatic Programmer, 20th Anniversary Edition
 
 ---
 
-## Problem Solving
+### Problem Solving
 
 **Fix root causes, not symptoms**
 → Instead of restarting a service repeatedly, you find the memory leak causing crashes.
@@ -99,7 +99,7 @@ David Thomas, Andrew Hunt: The Pragmatic Programmer, 20th Anniversary Edition
 
 ---
 
-## Professional Growth
+### Professional Growth
 
 **Invest in learning regularly**
 → You set aside time each week to read technical articles or try new tools.
@@ -115,7 +115,7 @@ David Thomas, Andrew Hunt: The Pragmatic Programmer, 20th Anniversary Edition
 
 ---
 
-## All 100 Tips:
+### All 100 Tips:
 > ### Care About Your Craft
 > Why spend your life developing software unless you care about doing it well?
 
