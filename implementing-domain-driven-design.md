@@ -1,4 +1,4 @@
-Vaughn Vernon: Implementing Domain-Driven Design (In-Progress)
+(In-Progress) Vaughn Vernon: Implementing Domain-Driven Design
 
 ---
 
