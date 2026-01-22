@@ -12,32 +12,23 @@ Steve Krug: Don't Make Me Think
 
 ## Core Ideas & Principles
 **Users don’t read — they scan**
-→ People skim pages for keywords, headings, and cues. Design should support fast scanning, not careful reading.
-
+→ People skim pages for keywords, headings, and cues. Design should support fast scanning, not careful reading.  
 **Don’t make users think**
-→ Interfaces should be self-explanatory. If users have to stop and figure things out, the design has failed.
-
+→ Interfaces should be self-explanatory. If users have to stop and figure things out, the design has failed.  
 **Clear visual hierarchy matters**
-→ Size, color, spacing, and placement should instantly communicate what’s important and what’s related.
-
+→ Size, color, spacing, and placement should instantly communicate what’s important and what’s related.  
 **Obvious navigation beats clever navigation**
-→ Labels, menus, and links should be predictable and familiar. Cleverness creates confusion.
-
+→ Labels, menus, and links should be predictable and familiar. Cleverness creates confusion.  
 **Eliminate unnecessary choices**
-→ Too many options slow users down. Fewer, clearer choices lead to better decisions.
-
+→ Too many options slow users down. Fewer, clearer choices lead to better decisions.  
 **Conventions are your friends**
-→ Using established patterns (logos linking to home, underlined links, shopping cart icons) reduces learning effort.
-
+→ Using established patterns (logos linking to home, underlined links, shopping cart icons) reduces learning effort.  
 **Words matter**
-→ Short, clear, and meaningful text helps users understand what actions do and what content means.
-
+→ Short, clear, and meaningful text helps users understand what actions do and what content means.  
 **Users will muddle through—but that’s not success**
-→ Just because users *can* use something doesn’t mean it’s usable. Struggle is still failure.
-
+→ Just because users *can* use something doesn’t mean it’s usable. Struggle is still failure.  
 **Usability testing doesn’t have to be expensive**
-→ Testing with just a few users, early and often, reveals most usability problems.
-
+→ Testing with just a few users, early and often, reveals most usability problems.  
 **Fix the biggest problems first**
 → Address major usability blockers before polishing minor details.
 
