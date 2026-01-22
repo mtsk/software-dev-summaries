@@ -13,41 +13,29 @@ Robert C. Martin: Clean Code
 ## One-page cheat sheet
 
 **Clean Code**
-→ Readable, simple, and easy to change without fear.
-
+→ Readable, simple, and easy to change without fear.  
 **Names**
-→ Reveal intent; avoid noise; if it needs a comment, rename it.
-
+→ Reveal intent; avoid noise; if it needs a comment, rename it.  
 **Functions**
-→ Small, do one thing, one abstraction level, few parameters.
-
+→ Small, do one thing, one abstraction level, few parameters.  
 **Comments**
-→ Explain *why*, not *what*; bad code is not fixed with comments.
-
+→ Explain *why*, not *what*; bad code is not fixed with comments.  
 **Formatting**
-→ Consistent layout shows structure and guides the reader.
-
+→ Consistent layout shows structure and guides the reader.  
 **Objects & Data**
-→ Objects hide data behind behavior; data structures expose data—don’t mix.
-
+→ Objects hide data behind behavior; data structures expose data—don’t mix.  
 **Error Handling**
-→ Use exceptions; keep the happy path clear; handle errors at the right level.
-
+→ Use exceptions; keep the happy path clear; handle errors at the right level.  
 **Boundaries**
-→ Isolate third-party code behind your own interfaces.
-
+→ Isolate third-party code behind your own interfaces.  
 **Unit Tests**
-→ Fast, independent, readable tests enable safe refactoring.
-
+→ Fast, independent, readable tests enable safe refactoring.  
 **Classes**
-→ Small, cohesive, single responsibility, low coupling.
-
+→ Small, cohesive, single responsibility, low coupling.  
 **Systems**
-→ Separate construction from use; grow systems incrementally.
-
+→ Separate construction from use; grow systems incrementally.  
 **Emergence**
-→ Good design emerges from tests, clarity, simplicity, and no duplication.
-
+→ Good design emerges from tests, clarity, simplicity, and no duplication.  
 **Concurrency**
 → Separate concurrent concerns; minimize shared state.
 
