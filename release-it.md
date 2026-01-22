@@ -11,7 +11,6 @@ Michael T. Nygard: Release It!
 ## Stability Antipatterns (Problems / Failure Patterns)
 - **Integration Points**
 → Any dependency on external services, databases, or protocols—each one can fail or hang.
-
 - **Chain Reactions**
 → One failure forces other components to pick up load, leading to broader system collapse.  
 - **Cascading Failures**
