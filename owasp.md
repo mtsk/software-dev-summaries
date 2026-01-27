@@ -5,7 +5,7 @@ https://owasp.org/www-project-web-security-testing-guide/
 
 ## OWASP Top Ten Web Application Security Risks
 1. **A01:2025 – Broken Access Control**
-→ Failures in enforcing what authenticated users are allowed to do — leads to unauthorized access to data or functionality. Includes issues like unauthorized privilege escalation and improper restriction of API endpoints.
+  Failures in enforcing what authenticated users are allowed to do — leads to unauthorized access to data or functionality. Includes issues like unauthorized privilege escalation and improper restriction of API endpoints.
 2. **A02:2025 – Security Misconfiguration**
 → Incorrectly configured systems or software defaults left insecure (open cloud storage, unnecessary services enabled, etc.). Often easy for attackers to find and exploit.
 3. **A03:2025 – Software Supply Chain Failures**
