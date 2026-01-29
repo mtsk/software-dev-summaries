@@ -15,5 +15,5 @@ Simple, unambitious mediator implementation in .NET
 https://github.com/LuckyPennySoftware/MediatR
 
 ### Coding-Styles examples
-https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md
+https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md  
 https://github.com/dotnet/winforms/blob/main/docs/coding-style.md
