@@ -76,7 +76,6 @@ An **Entity** is an object defined by its **identity**, not its attributes. Its 
 * Typically live inside Aggregates and are accessed through the Aggregate Root.
 
 ### Identity Generation
-Identity can be:
 * Database-generated
 * Application-generated
 * UUID-based
