@@ -65,3 +65,20 @@ Data Fabric architecture integrates multiple data sources, processing pipelines,
 
 **Best suited for:** Analytics-heavy and data-driven systems.  
 **Key risk:** Mixing analytical concerns with core domain logic.
+
+## Entities
+An **Entity** is an object defined by its **identity**, not its attributes. Its data may change over time, but its identity remains constant. An Entity models something that must be uniquely identifiable and consistent throughout its lifetime.
+
+* Have a lifecycle and continuity.
+* Encapsulate business behavior, not just data.
+* Protect invariants and prevent invalid state changes.
+* Compare equality based only on identity.
+* Typically live inside Aggregates and are accessed through the Aggregate Root.
+
+### Identity Generation
+Identity can be:
+* Database-generated
+* Application-generated
+* UUID-based
+
+Vernon favors application-generated identities because: They allow full object creation before persistence. They reduce coupling to infrastructure.
