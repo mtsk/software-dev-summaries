@@ -173,9 +173,3 @@ Input(Microhelp) (Text)            txtm                   inpmText
 DB_Text(Microhelp)                 txtp                   txtpText
 Vertical Scroll Bar(Microhelp)     vsbm                   vsbmScroll
 DB_VScroll(Pioneer)                vsbp                   vsbpScroll
-
-REFERENCES
-==========
-
-The base list can also be found in the Programmers Guide under the Object Naming
-Conventions Section.
