@@ -2,7 +2,7 @@ Steve Krug: Don't Make Me Think
 
 ---
 
-> *Core message: good design minimizes thinking.*
+> *Good design minimizes thinking.*
 
 > *A usable interface is one that explains itself.*
 
