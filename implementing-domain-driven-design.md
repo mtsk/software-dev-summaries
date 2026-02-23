@@ -83,7 +83,7 @@ An **Entity** is an object defined by its **identity**, not its attributes. Its 
 Vernon favors application-generated identities because: They allow full object creation before persistence. They reduce coupling to infrastructure.
 
 ## Value Objects
-A **Value Object** is defined by its **attributes**, not identity. Two value objects with the same values are considered equal. A Value Object models a descriptive aspect of the domain, is immutable, and is compared by its values rather than identity.
+A **Value Object** is defined by its **attributes**, not identity. Two value objects with the same values are considered equal. Favor the use of Value Objects whenever possible, because they are easier to develop, test and maintain.
 
 * Are **immutable**.
 * Have **no conceptual identity**.
