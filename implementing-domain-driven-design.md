@@ -77,7 +77,7 @@ An **Entity** is an object defined by its **identity**, not its attributes. Its 
 
 ### Identity Generation
 * Database-generated
-* Application-generated -> prefered when possible as they allow full object creation before persistence and reduce coupling to infrastructure
+* Application-generated -> prefered when possible, as they allow full object creation before persistence and reduce coupling to infrastructure
 * UUID-based
 
 ## Value Objects
@@ -89,4 +89,4 @@ A **Value Object** is defined by its **attributes**, not identity. Two value obj
 * Encapsulate domain concepts and related logic.
 * Help make the model more expressive and precise.
 
--> designing small, side-effect-free Value Objects to model important domain concepts (e.g., Money, Address, DateRange) instead of using primitive types.
+-> design small, side-effect-free Value Objects to model important domain concepts (e.g., Money, Address, DateRange) instead of using primitive types.
