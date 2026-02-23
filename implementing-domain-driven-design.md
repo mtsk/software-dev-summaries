@@ -77,10 +77,8 @@ An **Entity** is an object defined by its **identity**, not its attributes. Its 
 
 ### Identity Generation
 * Database-generated
-* Application-generated
+* Application-generated -> prefered when possible as they allow full object creation before persistence and reduce coupling to infrastructure
 * UUID-based
-
-Vernon favors application-generated identities because: They allow full object creation before persistence. They reduce coupling to infrastructure.
 
 ## Value Objects
 A **Value Object** is defined by its **attributes**, not identity. Two value objects with the same values are considered equal. Favor the use of Value Objects whenever possible, because they are easier to develop, test and maintain.
@@ -91,4 +89,4 @@ A **Value Object** is defined by its **attributes**, not identity. Two value obj
 * Encapsulate domain concepts and related logic.
 * Help make the model more expressive and precise.
 
-Vernon emphasizes designing small, side-effect-free Value Objects to model important domain concepts (e.g., Money, Address, DateRange) instead of using primitive types.
+-> designing small, side-effect-free Value Objects to model important domain concepts (e.g., Money, Address, DateRange) instead of using primitive types.
