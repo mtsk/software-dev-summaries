@@ -89,4 +89,21 @@ A **Value Object** is defined by its **attributes**, not identity. Two value obj
 * Encapsulate domain concepts and related logic.
 * Help make the model more expressive and precise.
 
--> design small, side-effect-free Value Objects to model important domain concepts (e.g., Money, Address, DateRange) instead of using primitive types.
+-> Design small, side-effect-free Value Objects to model important domain concepts (e.g., Money, Address, DateRange) instead of using primitive types.
+
+## Domain Services
+
+A Domain Service models significant business operations that don’t naturally fit within an Entity or Value Object, keeping the domain model expressive without becoming anemic.
+
+Services are used when:
+* A business operation involves multiple aggregates.
+* The behavior doesn’t conceptually fit inside a single object.
+* The operation represents an important domain concept.
+
+Key characteristics:
+* **Stateless** (no internal mutable state).
+* Express domain intent clearly.
+* Operate on domain objects passed as parameters.
+* Contain business rules — not infrastructure logic.
+
+-> Be carefull about creating “service-heavy” models that push behavior out of Entities. Services should be used sparingly — only when behavior truly doesn’t belong elsewhere.
