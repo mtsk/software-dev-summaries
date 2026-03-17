@@ -107,3 +107,32 @@ Key characteristics:
 * Contain business rules — not infrastructure logic.
 
 -> Be carefull about creating “service-heavy” models that push behavior out of Entities. Services should be used sparingly — only when behavior truly doesn’t belong elsewhere.
+
+## Domain Events
+
+A **Domain Event** represents something important that **happened in the domain** (past tense), such as *OrderPlaced* or *PaymentReceived*.
+
+Domain Events:
+* Capture **meaningful business occurrences**.
+* Are **immutable** once created.
+* Help **decouple** parts of the system.
+* Enable communication between aggregates or bounded contexts.
+* Can trigger side effects (e.g., notifications, integrations).
+
+They should be:
+* Named in **business language**.
+* Focused on what happened, not how.
+* Published after state changes are committed.
+  
+### Key Points
+* **Value vs. Aggregate Events**
+  * **Value-based (common):** simple, immutable fact with no lifecycle
+  * **Aggregate-like (rare):** used when the event must be tracked, queried, or managed over time
+* **Publishers & Subscribers**
+  * **Publishers:** usually **Aggregates** (sometimes Application Services)
+  * **Subscribers:** handlers in Application/Domain Services or external systems
+* **De-duplication**
+  * Events may be delivered multiple times → subscribers must be **idempotent** to avoid duplicate side effects
+* **Event Store**
+  * Append-only storage of events (DB, message store, or specialized tool)
+  * Enables **audit history** and **event sourcing** (rebuilding state)
