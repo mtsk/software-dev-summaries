@@ -141,7 +141,6 @@ They should be:
  
 Modules structure the domain model into meaningful, loosely coupled groups, making complex systems easier to understand and evolve.
 
-Key ideas:
 * Reflect **business concepts**, not technical layers
 * Promote **high cohesion** within a module and **low coupling** between modules
 * Provide clear **boundaries and naming** to improve understanding
