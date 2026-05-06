@@ -151,6 +151,7 @@ Key ideas:
 * Name Modules per Ubiquitous Language
 
 Example - Identity & Access Context:
+```
 identityaccess
 ├── domain
 │   ├── model
@@ -174,3 +175,4 @@ identityaccess
 │   └── event
 │       ├── UserRegistered
 │       └── TenantProvisioned
+```
