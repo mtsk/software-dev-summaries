@@ -209,7 +209,7 @@ Order (Aggregate Root)
 ```
 External code interacts only with `Order`, not directly with `OrderItem`.
 
-## *Factories*
+## Factories
 
 A **Factory** encapsulates the creation of complex domain objects or Aggregates, ensuring they are created in a **valid and consistent state**.
 
@@ -233,7 +233,7 @@ Factories may be implemented as:
 * Static factory methods
 * Aggregate creation methods
 
-## 🧩 Example
+### Example
 
 ```text id="c1j4x7"
 TenantProvisioningFactory
